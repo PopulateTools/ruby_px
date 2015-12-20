@@ -99,6 +99,9 @@ module PCAxis
       end
     end
 
+    def inspect
+      "#<#{self.class.name}:#{self.object_id}>"
+    end
 
     private
 
@@ -106,6 +109,7 @@ module PCAxis
       File.foreach(file) do |line|
         parse_line(line.chomp)
       end
+      return true
     end
 
     def parse_line(line)
