@@ -1,5 +1,7 @@
 # Ruby-PX
 
+[![Build Status](https://travis-ci.org/PopulateTools/ruby-px.svg?branch=master)](https://travis-ci.org/PopulateTools/ruby-px)
+
 Work with PC-Axis files using Ruby.
 
 ## Motivation
