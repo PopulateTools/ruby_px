@@ -32,7 +32,7 @@ Or install it yourself as:
 
 ```ruby
 # Load a dataset
-dataset = PCAxis::Dataset.new 'spec/fixtures/ine-padron-2014.px'; 0
+dataset = PCAxis::Dataset.new 'spec/fixtures/ine-padron-2014.px'
 
 # Query some metadata
 dataset.title
