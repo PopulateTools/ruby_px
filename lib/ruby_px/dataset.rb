@@ -1,6 +1,4 @@
-require 'active_support/all'
-
-module PCAxis
+module RubyPx
   class Dataset
     attr_reader :headings, :stubs
 
@@ -141,7 +139,7 @@ module PCAxis
         end
       end
 
-      # If we see a ; at the end of the line, close out the record so we 
+      # If we see a ; at the end of the line, close out the record so we
       # expect a new record.
       if line[-1..-1] == ";"
         @current_record = nil

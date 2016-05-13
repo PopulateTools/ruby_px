@@ -3,14 +3,14 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby-px"
-  spec.version       = '0.1.0'
+  spec.name          = "ruby_px"
+  spec.version       = '0.2.0'
   spec.authors       = ["Fernando Blat"]
   spec.email         = ["ferblape@gmail.com"]
 
   spec.summary       = %q{Read PC-Axis files using Ruby}
   spec.description   = %q{Read PC-Axis files using Ruby}
-  spec.homepage      = "https://github.com/PopulateTools/ruby-px"
+  spec.homepage      = "https://github.com/PopulateTools/ruby_px"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

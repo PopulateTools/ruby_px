@@ -1,2 +1,2 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'pc-axis/dataset'
+require 'ruby_px'

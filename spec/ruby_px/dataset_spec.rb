@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe PCAxis::Dataset do
+describe RubyPx::Dataset do
   let(:subject) { described_class.new 'spec/fixtures/ine-padron-2014.px' }
 
   describe '#headings' do
@@ -31,7 +31,7 @@ describe PCAxis::Dataset do
     it 'should return the contact' do
       expect(subject.contact).to eq("INE E-mail:www.ine.es/infoine. Internet: www.ine.es. Tel: +34 91 583 91 00 Fax: +34 91 583 91 58")
     end
- 
+
     it 'should return the last_updated' do
       expect(subject.last_updated).to eq("05/10/99")
     end
