@@ -1,6 +1,6 @@
-# Ruby-PX
+# RubyPx
 
-[![Build Status](https://travis-ci.org/PopulateTools/ruby-px.svg?branch=master)](https://travis-ci.org/PopulateTools/ruby-px)
+[![Build Status](https://travis-ci.org/PopulateTools/ruby_px.svg?branch=master)](https://travis-ci.org/PopulateTools/ruby_px)
 
 Work with PC-Axis files using Ruby.
 
@@ -17,7 +17,7 @@ There is a library in R called [pxR](https://github.com/cran/pxR) from [@gilbell
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruby-px'
+gem 'ruby_px'
 ```
 
 And then execute:
@@ -26,7 +26,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ruby-px
+    $ gem install ruby_px
 
 ## Usage
 
@@ -96,7 +96,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/PopulateTools/ruby-px. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/PopulateTools/ruby_px. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## Thanks
 

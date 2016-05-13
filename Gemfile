@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in ruby-px.gemspec
+# Specify your gem's dependencies in ruby_px.gemspec
 gemspec
