@@ -123,7 +123,7 @@ module RubyPx
       return if @current_record.nil? || value.nil?
 
       if @type == :data
-        value = value.split(' ')
+        value = value.split(/[\ ;,\t]/).delete_if{ |s| s.blank? }.each(&:strip)
 
         add_value_to_bucket(bucket,value) unless value == [';']
       else
@@ -183,6 +183,7 @@ module RubyPx
             value.strip!
           end
           if bucket[@current_record].nil?
+            value = Array.wrap(value) if @type == :values
             bucket[@current_record] = value
           else
             bucket[@current_record].concat([value])
