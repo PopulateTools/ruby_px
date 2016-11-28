@@ -1,0 +1,50 @@
+AXIS-VERSION="2006";
+CREATION-DATE="20161124";
+CHARSET="ANSI";
+SUBJECT-AREA="Fenómenos demográficos. Año 2014";
+SUBJECT-CODE="null";
+MATRIX="23001";
+TITLE="Araba/Álava por municipios y fenómeno demográfico .";
+CONTENTS="Araba/Álava";
+CODEPAGE="iso-8859-15";
+DESCRIPTION="";
+COPYRIGHT=YES;
+DECIMALS=0;
+SHOWDECIMALS=0;
+STUB="Municipios";
+HEADING="Fenómeno demográfico","Periodo";
+VALUES("Municipios")="01001 Alegría-Dulantzi","01002 Amurrio","01049 Añana","01003 Aramaio",
+"01006 Armiñón","01037 Arraia-Maeztu","01008 Arrazua-Ubarrundia","01004 Artziniega",
+"01009 Asparrena","01010 Ayala/Aiara","01011 Baños de Ebro/Mañueta","01013 Barrundia",
+"01014 Berantevilla","01016 Bernedo","01017 Campezo/Kanpezu","01021 Elburgo/Burgelu",
+"01022 Elciego","01023 Elvillar/Bilar","01046 Erriberagoitia/Ribera Alta",
+"01056 Harana/Valle de Arana","01901 Iruña Oka/Iruña de Oca","01027 Iruraiz-Gauna",
+"01019 Kripan","01020 Kuartango","01028 Labastida/Bastida","01030 Lagrán",
+"01031 Laguardia","01032 Lanciego/Lantziego","01902 Lantarón",
+"01033 Lapuebla de Labarca","01036 Laudio/Llodio","01058 Legutio","01034 Leza",
+"01039 Moreda de Álava/Moreda Araba","01041 Navaridas","01042 Okondo",
+"01043 Oyón-Oion","01044 Peñacerrada-Urizaharra","01047 Ribera Baja/Erribera Beitia",
+"01051 Salvatierra/Agurain","01052 Samaniego","01053 San Millán/Donemiliaga",
+"01054 Urkabustaiz","01055 Valdegovía/Gaubea","01057 Villabuena de Álava/Eskuernaga",
+"01059 Vitoria-Gasteiz","01060 Yécora/Iekora","01061 Zalduondo","01062 Zambrana",
+"01018 Zigoitia","01063 Zuia";
+VALUES("Fenómeno demográfico")="nacidos vivos por residencia materna",
+"muertes fetales tardías por residencia materna",
+"matrimonios por el lugar en que han fijado residencia",
+"fallecidos por el lugar de residencia","crecimiento vegetativo";
+VALUES("Periodo")="periodopx";
+CODES("Municipios")="01001","01002","01049","01003","01006","01037","01008","01004","01009","01010","01011",
+"01013","01014","01016","01017","01021","01022","01023","01046","01056","01901","01027",
+"01019","01020","01028","01030","01031","01032","01902","01033","01036","01058","01034",
+"01039","01041","01042","01043","01044","01047","01051","01052","01053","01054","01055",
+"01057","01059","01060","01061","01062","01018","01063";
+MAP("Municipios")="muni0109_esp";
+UNITS="fenómenos demográficos";
+SOURCE="Instituto Nacional de Estadística";
+DATA=
+42.0 0.0 10.0 23.0 19.0 99.0 0.0 48.0 75.0 24.0 0.0 0.0 0.0 3.0 -3.0 20.0 0.0 6.0 9.0 11.0 2.0 0.0 0.0 5.0 -3.0 9.0 0.0 2.0 5.0 4.0 7.0 0.0 5.0 7.0 0.0 16.0 0.0 7.0 13.0 3.0 12.0 0.0 4.0 9.0 3.0 31.0 0.0 13.0 22.0 9.0
+ 2.0 0.0 0.0 4.0 -2.0 2.0 0.0 2.0 5.0 -3.0 4.0 0.0 1.0 7.0 -3.0 4.0 0.0 2.0 8.0 -4.0 8.0 0.0 1.0 13.0 -5.0 10.0 0.0 1.0 3.0 7.0 7.0 0.0 5.0 10.0 -3.0 2.0 0.0 0.0 4.0 -2.0 5.0 0.0 1.0 4.0 1.0 0.0 0.0 2.0 6.0 -6.0
+ 28.0 0.0 11.0 10.0 18.0 1.0 0.0 3.0 5.0 -4.0 0.0 0.0 0.0 2.0 -2.0 1.0 0.0 4.0 4.0 -3.0 11.0 0.0 2.0 7.0 4.0 1.0 0.0 2.0 4.0 -3.0 18.0 0.0 3.0 21.0 -3.0 5.0 0.0 3.0 7.0 -2.0 5.0 0.0 1.0 9.0 -4.0 14.0 0.0 4.0 3.0 11.0
+ 140.0 2.0 61.0 179.0 -39.0 21.0 0.0 6.0 11.0 10.0 2.0 0.0 1.0 2.0 0.0 1.0 0.0 0.0 7.0 -6.0 1.0 0.0 0.0 3.0 -2.0 9.0 1.0 6.0 7.0 2.0 40.0 0.0 9.0 22.0 18.0 3.0 0.0 0.0 5.0 -2.0 8.0 0.0 4.0 8.0 0.0 68.0 1.0 32.0 30.0 38.0
+ 0.0 0.0 0.0 5.0 -5.0 6.0 0.0 0.0 7.0 -1.0 17.0 0.0 4.0 8.0 9.0 5.0 0.0 0.0 14.0 -9.0 2.0 0.0 0.0 7.0 -5.0 2554.0 9.0 938.0 1818.0 736.0 2.0 0.0 0.0 3.0 -1.0 2.0 0.0 0.0 2.0 0.0 2.0 0.0 0.0 6.0 -4.0 17.0 0.0 6.0 7.0 10.0
+ 11.0 0.0 6.0 18.0 -7.0;
