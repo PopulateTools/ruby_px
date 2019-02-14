@@ -82,7 +82,6 @@ dataset.data('edad (año a año)' => 'Total', 'sexo' => 'Ambos sexos')
 
 ## TODO
 
-- Allow to receive an URL as an argument
 - Refactor
 - Test the gem with more files
 - Speed-up the parsing time

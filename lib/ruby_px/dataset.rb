@@ -1,3 +1,5 @@
+require "open-uri"
+
 module RubyPx
   class Dataset
     attr_reader :headings, :stubs
@@ -6,18 +8,14 @@ module RubyPx
     HEADING_RECORD = 'HEADING'
     STUB_RECORD = 'STUB'
 
-    def initialize(file)
-      if !File.readable?(file)
-        raise "File #{file} not readable"
-      end
-
+    def initialize(resource_uri)
       @metadata = {}
       @headings = []
       @stubs = []
       @values = {}
       @data = []
 
-      parse_file(file)
+      parse_resource(resource_uri)
     end
 
     def title
@@ -103,15 +101,16 @@ module RubyPx
 
     private
 
-    def parse_file(file)
-      File.foreach(file) do |line|
+    def parse_resource(resource_uri)
+      open(resource_uri).each_line do |line|
         parse_line(line.chomp)
       end
-      return true
+
+      true
     end
 
     def parse_line(line)
-      @line = line
+      @line = line.force_encoding('utf-8').encode('utf-8')
 
       if @current_record.nil?
         key, value = line.scan(/[^\=]+/)
