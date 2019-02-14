@@ -5,7 +5,7 @@ describe RubyPx::Dataset do
 
   describe '#headings' do
     it 'should return the list of headings described in the file' do
-      expect(subject.headings).to eq(["Fenomeno demografico"])
+      expect(subject.headings).to eq(["Fenómeno demográfico"])
     end
   end
 end

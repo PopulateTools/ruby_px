@@ -110,7 +110,7 @@ module RubyPx
     end
 
     def parse_line(line)
-      @line = line
+      @line = line.force_encoding('utf-8').encode('utf-8')
 
       if @current_record.nil?
         key, value = line.scan(/[^\=]+/)
