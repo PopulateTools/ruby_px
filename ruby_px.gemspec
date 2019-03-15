@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "ruby_px"
   spec.version       = '0.5.0'
   spec.authors       = ["Fernando Blat"]
-  spec.email         = ["ferblape@gmail.com"]
+  spec.email         = ["fernando@blat.es"]
 
   spec.summary       = %q{Read PC-Axis files using Ruby}
   spec.description   = %q{Read PC-Axis files using Ruby}
@@ -26,9 +26,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "activesupport", ">= 4.2.5"
+  spec.add_runtime_dependency "activesupport", ">= 4.2"
 
-  spec.add_development_dependency "bundler", "~> 2.0.1"
+  spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 12.3"
   spec.add_development_dependency "rspec", "~> 3.8"
 end
