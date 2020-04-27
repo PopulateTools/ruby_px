@@ -113,7 +113,7 @@ module RubyPx
       @line = line.force_encoding('utf-8').encode('utf-8')
 
       if @current_record.nil?
-        key, value = line.scan(/[^\=]+/)
+        key, value = line.split("=", 2)
         set_current_record(key)
       else
         value = line
