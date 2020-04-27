@@ -155,7 +155,7 @@ module RubyPx
                         elsif key == STUB_RECORD
                           @type = :stubs
                           key
-                        elsif key =~ /\AVALUES/
+                        elsif key =~ /\AVALUES/ && key !~ /\[\w\w\]/
                           @type = :values
                           key.match(/\"([^"]+)\"/)[1]
                         elsif key =~ /\ADATA/
