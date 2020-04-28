@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "ruby_px"
-  spec.version       = '0.5.0'
+  spec.version       = '0.6.0'
   spec.authors       = ["Fernando Blat"]
   spec.email         = ["fernando@blat.es"]
 
@@ -26,9 +26,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "activesupport", ">= 4.2"
+  spec.add_runtime_dependency "activesupport", ">= 6.0"
 
-  spec.add_development_dependency "bundler", "~> 1.17"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.8"
+  spec.add_development_dependency "rspec", "~> 3.9"
 end
