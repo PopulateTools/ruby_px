@@ -1,5 +1,6 @@
 # RubyPx
 
+[![Gem Version](https://badge.fury.io/rb/ruby_px.svg)](https://badge.fury.io/rb/ruby_px)
 [![Build Status](https://travis-ci.org/PopulateTools/ruby_px.svg?branch=master)](https://travis-ci.org/PopulateTools/ruby_px)
 
 Work with PC-Axis files using Ruby.

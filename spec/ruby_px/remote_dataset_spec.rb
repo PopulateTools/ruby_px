@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 describe RubyPx::Dataset do
@@ -5,7 +7,7 @@ describe RubyPx::Dataset do
 
   describe '#headings' do
     it 'should return the list of headings described in the file' do
-      expect(subject.headings).to eq(["Fenómeno demográfico"])
+      expect(subject.headings).to eq(['Fenómeno demográfico'])
     end
   end
 end
