@@ -3,6 +3,7 @@ module RubyPx
     class Data
 
       CHUNK_SIZE = 5_000
+      attr_accessor :current_chunk_index
 
       def initialize
         @current_chunk_index = 0
@@ -30,7 +31,6 @@ module RubyPx
 
       private
 
-      attr_accessor :current_chunk_index
 
       def current_chunk
         current = instance_variable_get("@chunk_#{self.current_chunk_index}")
