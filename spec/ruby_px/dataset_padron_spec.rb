@@ -3,7 +3,12 @@
 require 'spec_helper'
 
 describe RubyPx::Dataset do
-  let(:subject) { described_class.new 'spec/fixtures/ine-padron-2014.px' }
+  before(:all) do
+    @subject = described_class.new 'spec/fixtures/ine-padron-2014.px'
+  end
+
+  let(:subject) { @subject }
+
 
   context "ine-padron-2014.px" do
     describe '#headings' do

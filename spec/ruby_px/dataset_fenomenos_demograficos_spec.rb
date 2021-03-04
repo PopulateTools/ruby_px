@@ -3,7 +3,11 @@
 require 'spec_helper'
 
 describe RubyPx::Dataset do
-  let(:subject) { described_class.new 'spec/fixtures/ine-fenomenos-demograficos-2014-alava-23001.px' }
+  before(:all) do
+    @subject = described_class.new 'spec/fixtures/ine-fenomenos-demograficos-2014-alava-23001.px'
+  end
+
+  let(:subject) { @subject }
 
   context "ine-fenomenos-demograficos-2014-alava-23001.px" do
     describe '#headings' do
