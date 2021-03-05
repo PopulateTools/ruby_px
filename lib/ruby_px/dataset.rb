@@ -4,6 +4,8 @@ require 'open-uri'
 
 module RubyPx
   class Dataset
+    require 'ruby_px/dataset/data'
+
     attr_reader :headings, :stubs
 
     METADATA_RECORDS = %w[TITLE UNITS SOURCE CONTACT LAST-UPDATED CREATION-DATE].freeze
@@ -15,7 +17,7 @@ module RubyPx
       @headings = []
       @stubs = []
       @values = {}
-      @data = []
+      @data = Data.new
 
       parse_resource(resource_uri)
     end
@@ -82,7 +84,7 @@ module RubyPx
           offset += (d ? p * d : p)
         end
 
-        @data[offset]
+        @data.at(offset)
 
       # Return an array of options
       elsif options.length == dimensions.length - 1
