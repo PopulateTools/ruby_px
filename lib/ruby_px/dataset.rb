@@ -162,7 +162,7 @@ module RubyPx
                         elsif key =~ /\AVALUES/ && key !~ /\[\w\w\]/
                           @type = :values
                           key.match(/\"([^"]+)\"/)[1]
-                        elsif key =~ /\ADATA/
+                        elsif key =~ /\ADATA\z/
                           @type = :data
                           key
                         end
