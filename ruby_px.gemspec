@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'ruby_px'
-  spec.version       = '0.7.0'
+  spec.version       = '0.8.0'
   spec.authors       = ['Fernando Blat']
   spec.email         = ['fernando@blat.es']
 

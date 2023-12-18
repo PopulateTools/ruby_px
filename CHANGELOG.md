@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.8.0 (2021-03-04)
+
+- Fix wrong DATA key error [#10](https://github.com/PopulateTools/ruby_px/pull/10)
+
 ## 0.7.0 (2021-03-04)
 
 - Performance in large datasets [#9](https://github.com/PopulateTools/ruby_px/pull/9)
